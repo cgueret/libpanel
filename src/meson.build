@@ -177,7 +177,7 @@ libpanel = library('panel-@0@'.format(ABI_MAJOR),
                  c_args: deprecation_args,
 )
 
-libpanel_dep = declare_dependency(
+libpanel-1 = declare_dependency(
               sources: libpanel_generated_headers,
          dependencies: libpanel_deps,
   include_directories: libpanel_include_directories,
