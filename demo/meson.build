@@ -1,5 +1,5 @@
 demo_dependencies = [
-  libpanel_dep,
+  libpanel-1,
 ]
 
 demo_sources = [
